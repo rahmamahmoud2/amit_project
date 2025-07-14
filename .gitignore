@@ -1,0 +1,43 @@
+# ✅ Flutter related
+build/
+.dart_tool/
+.pub/
+.packages
+
+# ✅ IDE related
+.vscode/
+.idea/
+*.iml
+
+# ✅ Android
+android/.gradle/
+android/.idea/
+android/app/.cxx/
+android/gradle/
+*.jar
+
+# ✅ iOS/macOS
+ios/Pods/
+*.xcworkspace
+macos/
+macos/Pods/
+
+# ✅ Windows (optional)
+windows/
+
+# ✅ Assets - exclude large images/videos
+assets/images/032_AshleyMatt 1.png
+assets/images/*.png
+assets/images/*.jpg
+assets/images/*.webp
+assets/videos/
+*.mp4
+*.mov
+
+# ✅ Fonts (optional: exclude heavy fonts)
+assets/fonts/Inter-VariableFont_*
+assets/fonts/Sevillana-Regular.ttf
+assets/fonts/Inter-VariableFont_*.ttf
+
+# ✅ Firebase logs
+firebase-debug.log
